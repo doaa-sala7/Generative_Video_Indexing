@@ -10,23 +10,24 @@ https://github.com/doaa-sala7/Generative_Video_Indexing/assets/61519327/f3ef7d14
 
 
 ## Data: 
-•	Input Data: Arabic video
-•	Output Data: CSV file has scene details (start time, end time, number of frames, scene Title)
+* Input Data: Arabic video
+* Output Data: CSV file has scene details (start time, end time, number of frames, scene Title)
 ## Methodology:
 It is divided into three parts:
-•	Detect scenes
-•	NLP approach
-•	Vision approach
+* Detect scenes
+* NLP approach
+* Vision approach
 
 ### Detect scenes 
-•	Detect scenes using the PySceneDetect library
-•	It has three detection methods:
+* Detect scenes using the PySceneDetect library
+* It has three detection methods:
 1.	Threshold scene detection (detect-threshold): analyzes the video for changes in average frame intensity/brightness
 2.	Content-aware scene detection (detect-content): based on changes between frames in the HSV color space to find fast cuts
 3.	Adaptive content scene detection (detect-adaptive): based on detect-content, handles fast camera movement better by comparing neighboring frames in a rolling window
 
-•	In this project we used (detect-adaptive) in the Detection
-•	Took one keyframe per scene 
+* In this project we used (detect-adaptive) in the Detection
+* Took one keyframe per scene
+  
 ### NLP approach:
 1.	Convert Video to wav in function (convert_mp4_to_wav)
 2.	Extract Audio per scene:
