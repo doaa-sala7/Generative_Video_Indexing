@@ -53,5 +53,7 @@ We translate the English Title which is the output of the Title chain to the Ara
 6.	Convert LSTM outputs into vocabulary logits to predict subsequent caption words.
 7.	The image_caption/models folder has 2 models one was purely trained only on the COCO2017 dataset and has very good generalism and accuracy the other which is used for demo purposes in this project was trained on a custom-made dataset
 8.	The optimization  and loss measures techniques are also mentioned in detail in the presentation 
-9.	The results of the model are then applied to the translate function using pandas and the English text resulting from the model is turned into Arabic and then concatenated with the title captions from the Llama2 model in such a way that each speech-to-text title and each visual-to-text caption is aligned within the same timestamp/time frame it happened on, look for the csv metadata results we produced for more clarity 
+9.	The results of the model are then applied to the translate function using pandas and the English text resulting from the model is turned into Arabic and then concatenated with the title captions from the Llama2 model in such a way that each speech-to-text title and each visual-to-text caption is aligned within the same timestamp/time frame it happened on, look for the csv metadata results we produced for more clarity
+
+
 
