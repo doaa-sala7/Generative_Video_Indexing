@@ -3,6 +3,12 @@
 ## Problem definition:
 The problem is to detect scenes in a video and create a title for every scene in the video, to help to search for specific parts in the video.
 The title must have all information not only speech information but also scene details and background.
+## Demo
+
+
+https://github.com/doaa-sala7/Generative_Video_Indexing/assets/61519327/f3ef7d14-50f5-4c98-900b-1cdfd6023e05
+
+
 ## Data: 
 •	Input Data: Arabic video
 •	Output Data: CSV file has scene details (start time, end time, number of frames, scene Title)
