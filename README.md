@@ -31,12 +31,12 @@ It is divided into three parts:
 ### Detect scenes 
 * The first step involves employing advanced computer vision techniques to detect scene transitions and segment the video into distinct scenes.
 * Detect scenes using the [PySceneDetect library](https://www.scenedetect.com/)
-* detect-adaptive fanction is used in the Detection, and one keyframe is taken per scene.
+* detect-adaptive function is used in the Detection, and one keyframe is taken per scene.
 ### Title Generation:
 Once scenes are identified, the next step is to generate descriptive titles for each scene. This task requires a combination of natural language processing (NLP) and computer vision techniques to extract pertinent information from the scene, including dialogue, visual elements, and contextual details. 
 
 ## Results
-* the Result is a CSV file for all scenes Details and Arbic Title based on the speech and image captioning based on the scene.
+* The Result is a CSV file for all scenes Details and Arabic Title are based on the speech and image captioning based on the scene. [Here](https://github.com/doaa-sala7/Generative_Video_Indexing/blob/main/Results/final_results.csv)
 
 ## Contributors
 * Doaa: Scene detection and NLP approach
